@@ -1,0 +1,19 @@
+# Core
+streamlit
+python-dotenv
+requests
+
+# Data / ML
+numpy
+pandas
+scikit-learn
+joblib
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Notebooks (optional)
+jupyter
+
