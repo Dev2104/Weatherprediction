@@ -62,23 +62,38 @@ weather_ml_app/
 │       ├── 4_Model_Insights.py
 │       └── 5_About_Project.py
 │
-├── src/
-│   ├── weather_api.py
-│   ├── preprocess.py
-│   ├── features.py
-│   ├── train.py
-│   └── train_model.py
-│
 ├── data/
-│   └── raw/
-│       └── weatherAUS.csv
+│   ├── raw/
+│   │   └── weatherAUS.csv
+│   └── processed/
 │
 ├── models/
 │   └── rain_model.pkl
 │
+├── notebooks/
+│   └── train_model.py
+│
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── features.py
+│   ├── insights.py
+│   ├── predict.py
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── ui_theme.py
+│   ├── utils.py
+│   ├── visualizations.py
+│   └── weather_api.py
+│
+├── .streamlit/
+│   └── config.toml
+│
 ├── .env
 ├── .gitignore
-└── requirements.txt
+├── README.md
+├── requirements.txt
+└── test_api.py
 ```
 
 ---
